@@ -1,0 +1,10 @@
+.dash{
+    display:flex;
+    flex-direction: row;
+}
+.side1{
+    margin:-120px;
+}
+.side2{
+    margin:-120px;
+}
