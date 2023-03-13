@@ -82,6 +82,14 @@ function navbar() {
               Login
             </Button>
       </a>
+      <a href="/donation">
+            <Button
+              sx={{ marginLeft: "auto", marginRight: "8px" ,fontSize:"20px", width:"160px"}}
+              variant="contained"  
+            >
+              Donate
+            </Button>
+      </a>
             <a href='/logine'>
             <Button variant="contained" sx={{marginLeft: "10px",fontSize:"20px"}} >About us</Button></a>
         

@@ -7,6 +7,7 @@ import Box from '@mui/material/Box';
 import Signup from './components/Signup';
 import Landing from "./components/Landing"
 import AboutUs from './components/AboutUs';
+import Donation from './components/Donation';
 import Form from "./components/Form";
 import Card from "./components/Card";
 import Voice from "./components/Voice";
@@ -34,6 +35,7 @@ function App() {
           <Route path="/findjob" element={<Card/>} />
           <Route path="/voice" element={<Voice/>} />
           <Route path="/dashboard" element={<Dashboard/>} />
+          <Route path="/donation" element={<Donation/>} />
           
         </Routes>
         </UserAuthContextProvider>
