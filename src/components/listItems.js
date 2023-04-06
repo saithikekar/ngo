@@ -29,13 +29,13 @@ export const mainListItems = (
       <ListItemIcon>
         <BarChartIcon />
       </ListItemIcon>
-      <ListItemText primary="Latest Jobs" />
+      <ListItemText primary="Latest Records" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
         <LayersIcon />
       </ListItemIcon>
-      <ListItemText primary="Education Qualification" />
+      <ListItemText primary="Location" />
     </ListItemButton>
   </React.Fragment>
 );
@@ -43,25 +43,25 @@ export const mainListItems = (
 export const secondaryListItems = (
   <React.Fragment>
     <ListSubheader component="div" inset>
-      Preferred Job Roles
+      Preferred Roles
     </ListSubheader>
     <ListItemButton>
       <ListItemIcon>
         <AssignmentIcon />
       </ListItemIcon>
-      <ListItemText primary="Truck Driver" />
+      <ListItemText primary="Donor" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
         <AssignmentIcon />
       </ListItemIcon>
-      <ListItemText primary="Delivery man" />
+      <ListItemText primary="volunteer" />
     </ListItemButton>
     <ListItemButton>
       <ListItemIcon>
         <AssignmentIcon />
       </ListItemIcon>
-      <ListItemText primary="Taxi Driver" />
+      <ListItemText primary="Admin" />
     </ListItemButton>
   </React.Fragment>
 );

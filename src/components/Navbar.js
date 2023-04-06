@@ -69,7 +69,7 @@ function navbar() {
             <img src={logo} alt="LOGO" className="logo" style={{width:"100px"}} />
             <Tabs className="navtabs" textColor="#FFFFF" values={0} indicatorColor="#48927">
               <Tab label="Home" Link="" style={{fontSize:"20px",padding:"10px"}}/>
-              <Tab label="Donate" Link="" style={{fontSize:"20px",padding:"10px"}}/>
+              <Tab label="Contact Us" Link="" style={{fontSize:"20px",padding:"10px"}}/>
               <Tab label="Volunteer"Link="" style={{fontSize:"20px",padding:"10px"}}/>
               <Tab label="" />
             </Tabs>

@@ -5,7 +5,7 @@ function Chart() {
     <div className="dash">
         <div className='row1'>
             <div className="side1">
-            <h3>Full Name:</h3>
+            <h3>Full Name: Sai Thikekar</h3>
             </div>
             <div className="side2">
                 

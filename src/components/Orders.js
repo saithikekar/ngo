@@ -16,16 +16,16 @@ const rows = [
   createData(
     0,
     '16 Mar, 2019',
-    'DELHI',
-    'Ola',
+    'Mumbai',
+    'Nakandani',
     'PENDING',
     312.44,
   ),
   createData(
     1,
     '16 Mar, 2019',
-    'DELHI',
-    'Zomato',
+    'Palghar',
+    'Falfool foundation',
     'ACCEPTED',
     866.99,
   ),
@@ -33,16 +33,16 @@ const rows = [
   createData(
     3,
     '16 Mar, 2019',
-    'DELHI',
-    'Cardekho',
+    'Thane',
+    'Astitva',
     'PENDING',
     654.39,
   ),
   createData(
     4,
     '15 Mar, 2019',
-    'DELHI',
-    'Uber',
+    'Vashi',
+    'Zubaan Teeth Foundation',
     'PENDING',
     212.79,
   ),
@@ -60,8 +60,8 @@ export default function Orders() {
         <TableHead>
           <TableRow>
             <TableCell>Date</TableCell>
-            <TableCell>Name</TableCell>
-            <TableCell>Company</TableCell>
+            <TableCell>Location</TableCell>
+            <TableCell>NGO name</TableCell>
             <TableCell>Status</TableCell>
             <TableCell align="right">Track</TableCell>
           </TableRow>
