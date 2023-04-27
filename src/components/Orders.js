@@ -55,7 +55,7 @@ function preventDefault(event) {
 export default function Orders() {
   return (
     <React.Fragment>
-      <Title>Applied Job</Title>
+      <Title>Your donations</Title>
       <Table size="small">
         <TableHead>
           <TableRow>
