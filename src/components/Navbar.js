@@ -90,11 +90,11 @@ function navbar() {
               Donate
             </Button>
       </a>
-            <a href='/logine'>
+            <a href='/aboutus'>
             <Button variant="contained" sx={{marginLeft: "10px",fontSize:"20px"}} >About us</Button></a>
         
             
-            <Button variant="contained" style={{marginLeft:"10px", fontSize:"20px"}} >Change Language</Button>
+            {/* <Button variant="contained" style={{marginLeft:"10px", fontSize:"20px"}} >Change Language</Button> */}
             <div className="profile" >
             <a href="/dashboard"><img src={profile} className="profimg" ></img></a>
             </div>
